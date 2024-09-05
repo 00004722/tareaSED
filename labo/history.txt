@@ -1,0 +1,23 @@
+    1  pene
+    2  gpg --full-gen-key
+    3  gpg --list-keys
+    4  gpg --list-secrets-keys
+    5  gpg --list-secret-keys
+    6  gpg --export 33450B9C012372A90464EF08CFCFF2930E4E6139
+    7  gpg --export --armor  33450B9C012372A90464EF08CFCFF2930E4E6139
+    8  gpg --output llaveDavid  --export --armor  33450B9C012372A90464EF08CFCFF2930E4E6139
+    9  ls
+   10  cat llaveDavid
+   11  git clone https://github.com/Pyload901/llaves.git
+   12  ls
+   13  cd llaves
+   14  ls
+   15  gpg --import davidKey
+   16  gpg --list-key
+   17  gpg --edit-key 6CB3BA353D2486234F049BEF0B1626FC4827C474
+   18  gpg --list-key
+   19  cd ..
+   20  mkdir labo
+   21  cd labo
+   22  history
+   23  history > history.txt
